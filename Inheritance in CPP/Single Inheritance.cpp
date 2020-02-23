@@ -42,7 +42,7 @@ class DerivedClass : private ParentClass
 
         void display()
         {
-            ParentClass::display();
+            this->ParentClass::display();
             cout<<"\n Dnum = "<<this->dnum;
         }
 
